@@ -1,0 +1,119 @@
+main{
+    background-color: #bfd0e3;
+}
+
+
+.grid-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    'Naslov Naslov'
+    'Boje Fontovi'
+    'Uredivanje Uredivanje';
+    justify-items: center;
+    grid-row-gap:30px;
+    grid-column-gap:50px;
+    
+
+}
+h1{
+    padding-bottom:50px;
+    font-family:"PT-Serif";
+    font-size-adjust: none;
+
+   
+
+
+
+}
+h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    /* Monokromatske Boje */
+}
+#boja1{
+    background-color: #990FFE;
+   min-height: 70px;
+   padding:15px;
+   color:white;
+}
+#boja2{
+    
+    background-color: #500EE6;
+    min-height: 70px;
+    color:white;
+    padding:15px;
+    
+}
+#boja3{
+    background-color: #231CFC;
+    min-height: 70px;
+    color:white;
+    padding:15px;
+}
+#boja4{
+    background-color: #0E40E6;
+    min-height: 70px;
+    color:white;
+    padding:15px;
+}
+#boja5{
+    background-color: #0F85FE;
+    min-height: 70px;
+    color:white;
+    padding:15px;
+}
+/* Grid Area oznake */
+.Naslov{
+    grid-area:Naslov;
+
+    
+}
+.Boje{
+    grid-area:Boje;
+    
+    text-align:center;
+    align-content: center;
+    border: 3px solid #225387;
+    padding:5px;
+    
+}
+.Fontovi{
+    grid-area:Fontovi;
+    text-align:center;
+    line-height: 35px;
+    border: 3px solid #225387;
+    padding:5px;
+}
+.Uredivanje{
+    grid-area:Uredivanje;
+    border: 3px solid #225387;
+    padding:5px;
+    
+}
+/* Fontovi */
+#lato300{
+    font-family:'Lato';
+    font-weight:300;
+}
+#lato400{
+    font-family:'Lato';
+    font-weight:400;
+}
+#lato700{
+    font-family:'Lato';
+    font-weight:700;
+}
+#ubuntu300{
+    font-family:'Ubuntu';
+    font-weight:300;
+}
+#ubuntu400{
+    font-family:'Ubuntu';
+    font-weight:400;
+}
+#ubuntu700{
+    font-family:'Ubuntu';
+    font-weight:700;
+}
+
